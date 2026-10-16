@@ -2,6 +2,12 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "plugins": [
+      {
+        "name": "expo-router",
+        "routeDir": "src/app"
+      }
+    ],
     "paths": {
       "@/*": [
         "./src/*"
